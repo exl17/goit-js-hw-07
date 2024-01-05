@@ -26,6 +26,8 @@ ul {
   
 }
 
+/* task-1 */
+
 .subtitle {
   color: #2E2F42;
     font-family: Montserrat;
@@ -102,4 +104,91 @@ padding-bottom: 48px;
   height: 100%;
   display: block;
 
+}
+
+
+/* task-3 */
+
+.text-input {
+  width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+      border: 1px solid #808080;
+      color: #2E2F42;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+        padding: 16px 8px 16px;
+}
+
+.title-size {
+  color: #2E2F42;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.96px;
+}
+
+/* task-4 */
+
+.login-form {
+  display: inline-flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.input-form {
+display: flex;
+  
+  gap: 8px;
+  width: 360px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+      border: 1px solid #808080;
+      padding: 16px 8px 16px;
+
+}
+
+.button-task-four {
+display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+border-radius: 8px;
+  background: #4E75FF;
+  color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border: 0;
+    
+}
+
+
+.input-form:hover {
+  border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.input-form:active {
+
+  color: #2E2F42;
+}
+
+
+.button-task-four:hover{
+background-color: #6C8CFF;
 }
